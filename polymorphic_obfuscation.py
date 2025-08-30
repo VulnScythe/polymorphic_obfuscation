@@ -2,7 +2,6 @@ import base64
 import random
 import bz2
 """
-This tool uses PyInstaller to package both executables into a single distributable file.
 
 ░██    ░██            ░██              ░██████                            ░██    ░██                   
 ░██    ░██            ░██             ░██   ░██                           ░██    ░██                   
@@ -60,3 +59,4 @@ if polymorphic_payload:
 else:
 
     print("Failed to generate polymorphic payload.")
+
