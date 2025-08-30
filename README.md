@@ -1,4 +1,4 @@
-# 🔐 Polymorphic Obfuscation Demo  
+# 🔐 Polymorphic Obfuscation
 
 ## 📖 Overview  
 This project is a **proof-of-concept educational tool** that demonstrates the concept of **polymorphic code obfuscation** in Python.  
