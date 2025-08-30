@@ -37,7 +37,7 @@ cd polymorphic-obfuscation-demo
 
 ### 2. Run the script:
 
-polymorphic_demo.py
+polymorphic_obfuscation.py
 
 ### 3. ✅ A new obfuscated script will be generated and executed.
 
