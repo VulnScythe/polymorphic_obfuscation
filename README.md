@@ -62,3 +62,13 @@ Python 3.7+
 ### 📜 License
 
 Released under the MIT License. See the LICENSE file for details.
+
+---
+
+### 🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to improve.
+
+---
+
+## 💌 Support
+If you found this project helpful, please consider giving it a star or following my profile.
